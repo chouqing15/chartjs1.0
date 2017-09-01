@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
-import select from '@/components/telect'
+import section from '@/components/section'
 
 Vue.use(Router)
 
@@ -12,9 +12,9 @@ export default new Router({
       name: 'Hello',
       component: Hello
     },{
-      path:'/select',
-      name:'select',
-      component:select
+      path:'/section',
+      name:'section',
+      component:section
     }
   ]
 })
