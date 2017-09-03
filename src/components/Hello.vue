@@ -27,7 +27,10 @@ export default {
             }, {
               scaleShowGridLines:false,
               datasetStrokeWidth:10  ,
-              pointDotStrokeWidth:1         
+              pointDotStrokeWidth:1,
+              scaleShowLabels:false  ,
+              scaleStepWidth:0,
+              scaleSteps:null,
             });
     }
 }
