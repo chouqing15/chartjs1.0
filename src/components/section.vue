@@ -2,7 +2,7 @@
   <section class="model-9">
     <div class="checkbox">
       <input type="checkbox" @click="a" checked />
-      <label></label>
+      <label>123</label>
     </div>
   </section>
 </template>
@@ -42,7 +42,7 @@ export default {
   left: 0;
   top: -5px;
   z-index: 2;
-  background: #fff;
+  background: rgba(255,255,255,.5);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -62,7 +62,7 @@ export default {
 }
 
 .model-9 .checkbox label {
-  background: #A84141;
+  background:#eee;
   width: 90px;
   height: 32px;
   border-radius: 20px;
